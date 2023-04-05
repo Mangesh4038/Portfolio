@@ -1,0 +1,96 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+    display: flex;
+}
+.sidebar
+{
+    background-color: rgb(136, 115, 115);
+    width: 434px;
+    height: 100vh;
+}
+.sidebar nav
+{
+    padding: 35px;
+}
+.sidebar nav li
+{
+    list-style: none;
+    font-size: 25px;
+    padding: 23px 0px;
+}
+.sidebar nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.main
+{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.infocontainer
+{
+    /* background-color: rgb(250, 9, 129); */
+    height: 58vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello
+{
+    font-size: 65px;
+}
+.name
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "fira Sans",sans-serif;
+}
+.about
+{
+    font-size: 20px;
+}
+.more-about
+{
+    font-size: 15px;
+    font-family: "fira Sans",sans-serif;
+}
+.buttons
+{
+    margin-top: 34px;
+}
+.buttons button
+{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px  3px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 2px 2px black;
+}
+.buttons button:hover
+{
+    background-color: white;
+    color: dodgerblue;
+}
+.devpic img
+{
+    height: 58vh;
+}
